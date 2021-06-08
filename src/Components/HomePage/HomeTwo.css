@@ -1,0 +1,56 @@
+.main{
+    margin-top: -10px;
+      width: 100%;
+      height: 350px;
+      background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.397), rgba(230, 230, 230, 0)),url('../../images/faisalmosque.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: relative;
+      display: inline;
+      float: right;
+      clear: both;
+
+  }
+  .main:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  
+  }
+
+/* main three */
+.mainthree{
+    margin-top: -10px;
+      width: 100%;
+      height: 350px;
+      background-image: linear-gradient(to top, rgba(3, 3, 3, 0.397), rgba(230, 230, 230, 0)),url('../../images/faisalmosque.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: relative;
+      display: inline;
+      float: right;
+      clear: both;
+      transition: transform .2s; 
+  }
+  .mainthree:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  
+  }
+  
+  
+  .mainthree:hover {
+    -ms-transform: scale(0.9);
+    /*IE9*/-webkit-transform: scale(0.9);
+    /*Safari3-8*/transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
